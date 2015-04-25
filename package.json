@@ -4,7 +4,7 @@
   "description": "Fret Space",
   "main": "server.js",
   "scripts": {
-    "test": "gulp test",
+    "test": "",
     "start": "node server"
   },
   "repository": {
