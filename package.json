@@ -4,11 +4,12 @@
   "description": "Fret Space",
   "main": "server.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "start": "node server"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/jshanley/fretspace.git"
+    "url": "https://github.com/jshanley/fretspace.git"
   },
   "keywords": [
     "guitar"
