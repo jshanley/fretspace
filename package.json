@@ -1,0 +1,25 @@
+{
+  "name": "fretspace",
+  "version": "0.1.0",
+  "description": "Fret Space",
+  "main": "server.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jshanley/fretspace.git"
+  },
+  "keywords": [
+    "guitar"
+  ],
+  "author": "John Shanley",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/jshanley/fretspace/issues"
+  },
+  "homepage": "https://github.com/jshanley/fretspace",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
