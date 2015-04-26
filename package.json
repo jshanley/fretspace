@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "",
-    "start": "node server"
+    "start": "node server",
+    "postinstall": "node_modules/.bin/bower install; node_modules/.bin/gulp build"
   },
   "keywords": [
     "guitar"
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/jshanley/fretspace",
   "dependencies": {
-    "express": "^4.12.3"
+    "bower": "^1.4.1",
+    "express": "^4.12.3",
+    "gulp": "^3.8.11",
+    "gulp-live-server": "0.0.14",
+    "gulp-sass": "^1.3.3"
   }
 }

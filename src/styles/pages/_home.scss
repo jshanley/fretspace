@@ -1,0 +1,56 @@
+body {
+  height: 100%;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: url('/assets/images/strat.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.splash {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(teal,0.8);
+  color: white;
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+  }
+}
+.splash-header {
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+  .fret {
+    font-weight: 200;
+    font-size: 72px;
+  }
+  .space {
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 0.2em;
+  }
+}
+
+.page-content {
+  background-color: white;
+  color: #555;
+  section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+  }
+}
