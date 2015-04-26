@@ -19,3 +19,7 @@ gulp.task('watch', function() {
 })
 
 gulp.task('serve', ['server', 'watch']);
+
+gulp.task('build', ['sass']);
+
+gulp.task('default', ['build']);
